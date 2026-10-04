@@ -145,7 +145,6 @@ const ptBR = {
   'Diseñamos logística sin fisuras y momentos cautivantes en cada punto cardinal de la Ciudad Maravillosa. Nuestro equipo combina la calidez carioca con el estándar de hospitalidad internacional.': 'Planejamos uma logística impecável e momentos marcantes em todos os cantos da Cidade Maravilhosa. Nossa equipe combina o acolhimento carioca com padrões internacionais de hospitalidade.',
   'Traslados cómodos y seguros desde y hacia los principales aeropuertos y destinos.': 'Traslados confortáveis e seguros de e para os principais aeroportos e destinos.',
   'Las mejores opciones en hoteles, posadas y resorts en los destinos más increíbles.': 'As melhores opções de hotéis, pousadas e resorts nos destinos mais incríveis.',
-  'Paseos & Tours': 'Passeios e Tours',
   'Excursiones imperdibles con guías especializados para que vivas lo mejor de cada lugar.': 'Excursões imperdíveis com guias especializados para você aproveitar o melhor de cada lugar.',
   'Experiencias Exclusivas': 'Experiências exclusivas',
   'Actividades únicas y momentos especiales diseñados para transformar tu viaje.': 'Atividades únicas e momentos especiais criados para transformar sua viagem.',
