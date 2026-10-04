@@ -241,14 +241,20 @@ const ptBR = {
 };
 
 const ptBRWhatsAppMessages = {
-  'Hola, deseo consultar el catálogo completo de experiencias': 'Olá, gostaria de consultar o catálogo completo de experiências',
-  'Hola, deseo consultar el traslado privado aeropuerto-hotel': 'Olá, gostaria de consultar o traslado privativo aeroporto–hotel',
-  'Hola, deseo consultar el traslado privado desde Galeão': 'Olá, gostaria de consultar o traslado privativo a partir do Galeão',
-  'Hola, deseo cotizar ANGRA DOS REIS': 'Olá, gostaria de solicitar um orçamento para ANGRA DOS REIS',
-  'Hola, deseo cotizar ARRAIAL DO CABO': 'Olá, gostaria de solicitar um orçamento para ARRAIAL DO CABO',
-  'Hola, deseo cotizar BUZIOS': 'Olá, gostaria de solicitar um orçamento para BÚZIOS',
-  'Hola, deseo cotizar FAVELA DA ROCINHA': 'Olá, gostaria de solicitar um orçamento para a FAVELA DA ROCINHA',
-  'Hola, deseo cotizar UN DIA EN RIO': 'Olá, gostaria de solicitar um orçamento para UM DIA NO RIO',
+  'Hola, quiero planificar mi viaje a Río de Janeiro. ¿Podrían asesorarme?': 'Olá, quero planejar minha viagem ao Rio de Janeiro. Poderiam me orientar?',
+  'Hola, vi Rio Vibes Tour y quisiera asesoramiento para organizar mi viaje a Río de Janeiro.': 'Olá, conheci a Rio Vibes Tour e gostaria de orientação para organizar minha viagem ao Rio de Janeiro.',
+  'Hola, me gustaría recibir el catálogo completo de experiencias de Rio Vibes Tour.': 'Olá, gostaria de receber o catálogo completo de experiências da Rio Vibes Tour.',
+  'Hola, me interesa la experiencia Un día en Río. ¿Podrían contarme disponibilidad y precio?': 'Olá, tenho interesse na experiência Um dia no Rio. Poderiam informar disponibilidade e preço?',
+  'Hola, me interesa la excursión a Arraial do Cabo. ¿Podrían contarme disponibilidad y precio?': 'Olá, tenho interesse na excursão a Arraial do Cabo. Poderiam informar disponibilidade e preço?',
+  'Hola, me interesa el paseo a Angra dos Reis e Ilha Grande. ¿Podrían contarme disponibilidad y precio?': 'Olá, tenho interesse no passeio a Angra dos Reis e Ilha Grande. Poderiam informar disponibilidade e preço?',
+  'Hola, me interesa la visita guiada a la favela Rocinha. ¿Podrían contarme disponibilidad y precio?': 'Olá, tenho interesse na visita guiada à favela da Rocinha. Poderiam informar disponibilidade e preço?',
+  'Hola, me interesa la excursión a Búzios. ¿Podrían contarme disponibilidad y precio?': 'Olá, tenho interesse na excursão a Búzios. Poderiam informar disponibilidade e preço?',
+  'Hola, necesito un traslado privado desde el aeropuerto Galeão (GIG). ¿Podrían cotizarlo para mis fechas?': 'Olá, preciso de um traslado privativo saindo do Aeroporto do Galeão (GIG). Poderiam fazer um orçamento para minhas datas?',
+  'Hola, necesito un traslado privado entre el aeropuerto y mi hotel en Río de Janeiro. ¿Podrían cotizarlo?': 'Olá, preciso de um traslado privativo entre o aeroporto e meu hotel no Rio de Janeiro. Poderiam enviar um orçamento?',
+  'Hola, quisiera hablar con un asesor de Rio Vibes Tour sobre mi viaje.': 'Olá, gostaria de falar com um consultor da Rio Vibes Tour sobre minha viagem.',
+  'Hola, tengo una consulta sobre los servicios de Rio Vibes Tour.': 'Olá, tenho uma dúvida sobre os serviços da Rio Vibes Tour.',
+  'Hola, quisiera conocer las experiencias y traslados de Rio Vibes Tour.': 'Olá, gostaria de conhecer as experiências e os traslados da Rio Vibes Tour.',
+  'Hola, estoy visitando la web de Rio Vibes Tour y quisiera asesoramiento para mi viaje.': 'Olá, estou visitando o site da Rio Vibes Tour e gostaria de orientação para minha viagem.',
 };
 
 let activeLanguage = 'es';
