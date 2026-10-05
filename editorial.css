@@ -111,10 +111,18 @@ header .menu-icon { display: block; width: 24px; height: 24px; }
   box-shadow: 0 12px 32px rgba(0, 0, 0, .2);
 }
 
-main section:not(#inicio) { padding-top: clamp(88px, 7vw, 126px); padding-bottom: clamp(88px, 7vw, 126px); }
+main section:not(#inicio):not(.newsletter-section) { padding-top: clamp(104px, 7.7vw, 136px); padding-bottom: clamp(104px, 7.7vw, 136px); }
 main section h2 { color: var(--rv-cream); }
 main section .text-headline-lg { font-size: clamp(42px, 3.25vw, 56px); line-height: 1.12; letter-spacing: -.025em; }
 main section .text-on-surface-variant { color: #b8c4bc; }
+#experiencias > div > div:first-child,
+#traslados-aeropuertos > div > div:first-child,
+.reasons-section > div > div:first-child,
+#contacto > div > div:first-child { margin-bottom: clamp(56px, 5vw, 72px); }
+#experiencias h2 + p,
+#traslados-aeropuertos h2 + p,
+.reasons-section h2 + p,
+#contacto h2 + p { margin-top: 16px; line-height: 1.65; }
 
 /* Photographs and content feel like one deliberate collection. */
 #experiencias {
@@ -141,6 +149,7 @@ main section .text-on-surface-variant { color: #b8c4bc; }
 #experiencias article .experience-price-row > div > span:nth-child(2) { letter-spacing: -.025em; }
 #experiencias article a[href^="https://wa.me"] { box-shadow: 0 6px 22px rgba(149, 211, 186, .12); }
 #experiencias article a[href^="https://wa.me"]:hover { box-shadow: 0 8px 28px rgba(149, 211, 186, .22); }
+.experience-grid { row-gap: 40px; }
 
 #traslados-aeropuertos { background: radial-gradient(ellipse at 50% 100%, rgba(9, 66, 49, .23), transparent 57%), #141b17; }
 .transfer-card {
@@ -195,6 +204,7 @@ main section .text-on-surface-variant { color: #b8c4bc; }
 }
 .reasons-section .grid > div > div:first-child { border-bottom: 1px solid var(--rv-line); padding-bottom: 12px; }
 .reasons-section .grid > div > div:first-child > span:first-child { opacity: .9; }
+.reasons-section > div > .grid { row-gap: 32px; }
 
 #sobre-nosotros { background: #151c17; }
 #sobre-nosotros .lg\:col-span-7 > div:first-of-type {
@@ -205,7 +215,10 @@ main section .text-on-surface-variant { color: #b8c4bc; }
 #sobre-nosotros .lg\:col-span-5 img { filter: saturate(.95) contrast(1.05); }
 
 #contacto { background: radial-gradient(circle at 80% 10%, rgba(8, 65, 47, .13), transparent 36%), #0d1310; }
-#contacto form, #contacto .lg\:col-span-5 > div { border: 1px solid rgba(233, 195, 73, .11); }
+#contacto .lg\:col-span-7 { padding: clamp(26px, 2.8vw, 38px); box-shadow: 0 16px 38px rgba(0, 0, 0, .11); }
+#contacto form { gap: 22px; border: 0; }
+#contacto form > button { box-shadow: 0 8px 20px rgba(0, 0, 0, .14); }
+#contacto .lg\:col-span-5 > div { border: 1px solid rgba(233, 195, 73, .08); }
 #contacto input:not([type="radio"]), #contacto textarea { border: 1px solid transparent; }
 #contacto input:not([type="radio"]):focus, #contacto textarea:focus { border-color: rgba(233, 195, 73, .45); }
 #contacto .lg\:col-span-5 > a { border: 1px solid rgba(233, 195, 73, .3); }
@@ -256,8 +269,13 @@ footer > div > div:last-child { border-top: 1px solid var(--rv-line); }
   #inicio h1 { font-size: clamp(40px, 9.5vw, 54px); line-height: 1.1; letter-spacing: -.035em; }
   #inicio p { max-width: 540px; font-size: clamp(17px, 4vw, 19px); line-height: 1.55; }
   #inicio a { min-height: 54px; }
-  main section:not(#inicio) { padding-top: 76px; padding-bottom: 76px; }
+  main section:not(#inicio):not(.newsletter-section) { padding-top: 84px; padding-bottom: 84px; }
   main section .text-headline-lg { font-size: 32px; line-height: 1.19; }
+  #experiencias > div > div:first-child,
+  #traslados-aeropuertos > div > div:first-child,
+  .reasons-section > div > div:first-child,
+  #contacto > div > div:first-child { margin-bottom: 60px; }
+  .experience-grid { row-gap: 32px; }
   #experiencias article h3 { font-size: 24px; }
   .transfer-card { min-height: 420px; }
   .transfer-card h3 { font-size: 31px; }
