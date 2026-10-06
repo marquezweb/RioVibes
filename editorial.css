@@ -144,6 +144,17 @@ main section .text-on-surface-variant { color: #b8c4bc; }
 }
 #experiencias article > div:first-child img { filter: saturate(1.06); transition: transform .8s ease, filter .8s ease; }
 #experiencias article:hover > div:first-child img { transform: scale(1.055); filter: saturate(1.16); }
+/* Photo captions share the same sans type as the rest of the page. */
+#experiencias article > div:first-child .font-label-caps,
+.transfer-card .font-label-caps,
+#sobre-nosotros .lg\:col-span-5 .font-label-caps {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: .01em;
+  text-transform: none;
+}
 #experiencias article h3 { font-size: 25px; line-height: 1.18; letter-spacing: -.015em; color: var(--rv-cream); }
 #experiencias article .experience-price-row { border-top: 1px solid var(--rv-line); }
 #experiencias article .experience-price-row > div > span:nth-child(2) { letter-spacing: -.025em; }
