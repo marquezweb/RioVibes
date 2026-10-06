@@ -167,6 +167,7 @@ const ptBR = {
   '“Somos una Compañía de Gestión de Destinos (DMC), somos un proveedor de servicios profesionales que diseñamos, organizamos y gestionamos experiencias de viaje y eventos en Rio de Janeiro, Angra, Cabo Frío, Arraial y Búzios, ofreciendo nuestra experiencia de local y brindamos el soporte logístico completo.”': '“Somos uma Empresa de Gestão de Destinos (DMC), fornecedora de serviços profissionais que planeja, organiza e gerencia experiências de viagem e eventos no Rio de Janeiro, Angra, Cabo Frio, Arraial e Búzios, unindo nosso conhecimento local a um suporte logístico completo.”',
   'Sede Principal': 'Sede principal',
   'Región Lagos': 'Região dos Lagos',
+  'Angra & Ilha Grande': 'Angra e Ilha Grande',
   'Contactanos hoy': 'Entre em contato',
   'Respondemos a la brevedad dentro de nuestro horario de atención.': 'Respondemos o mais breve possível durante nosso horário de atendimento.',
   '¿Qué querés cotizar?': 'O que você deseja cotar?',
